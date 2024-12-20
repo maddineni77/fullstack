@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="0" WIDTH="100%">
+        <tr>
+            <td>
+                <center>
+                    <H1>TELANGANA STATE RAOD TRANSPORT CORPARATION</h1>
+                </center>
+                <center>
+                    <h1>GENERAL BUSS PASS APPLICATION</h1>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Aplicant details</legend>
+        <form method="get" action="./appliedsuccess.html" autocomplete="off">
+            <label for="username">username*:</label>
+            <input type="text" id="username" name="username" required maxlength="16" minlength="8">
+             <label for="father ">fathe/guarden's name*:</label>
+            <input type="text" id="father" name="guarden'sname" required>
+            <br>
+           <span> (maximum characters:20)</span>
+             <br>
+             <br>
+            <label for="dob">date of birth*:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="gender">gender*: female</label>
+            <input type="radio" id="gender" name="gender" value="male" required>
+            <label for="gender">male</label>
+            <input type="radio" id="gender" name="gender" value="female" required>
+            <br>
+            <br>
+            <label for="age">Age as on:</label>
+            <input type="number" id="age" name="age">
+            <label for="aadhar">Aadhar no*:</label>
+            <input type="text" id="aadhar" name="aadhar" pattern="[0-9]{12}">
+            <br>
+            <br>
+            <label for="whatsapp">Whatsapp No*: </label>
+            <input type="text" id="whatsapp" name="whatsapp" pattern="\+91[6789][0-9]{9}" required title="enter a valid number" >
+            <br>
+            <br>
+            <label for="email">Email*:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <labe for="photo">Photo*:</labe>
+            <input type="file" id="photo" name="photo">
+<br>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Residential Address Details</legend>
+        
+        <label for="address">Applicant Address:</label>
+        <textarea id="address" name="address"></textarea>
+        <label for="district">District*:</label>
+         <select  id="district" name="district">
+            <option value="select" >hyderabad</option>
+            <option  >select</option>
+            <option>prakasam</option>
+            <option>guntur</option>
+         </select><br>
+         <br>
+        <label for="mandal">Mandal*:</label>
+        <select id="mandal" name="mandal">
+            <option value="select"></option>
+            <option>select</option>
+            <option>kurichedu</option>
+            <option>darsi</option>
+        </select>
+        
+        <label for="village">Village*:</label>
+        <select id="village" name="village">
+            <option value="select"></option>
+            <optio> select</optio>
+            <option>kallur</option>
+            <option>gutta</option>
+        </select>
+        <br>
+        <br>
+        <labe for="pincode">Pincode*:</labe>
+        <input type="text" id="pincode" name="pincode"  pattern="[23456789]{5}">
+        </fieldset>
+        <fieldset>
+            <legend>Passtype details</legend>
+            
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="select">select</option>
+                    <option>hyderabad</option>
+                </select><br>
+                <label for="passtype">Passtype:</label>
+                <select id="passtype" name="passtype">
+                    <option value="select">select</option>
+                    <option value="select">student</option>
+                    <option value="select">general</option>
+                </select>           
+        </fieldset>
+        <fieldset>
+            <legend>Mode of payment and Pass collection</legend>
+            
+                <label for="payment">Payment Mode:</label>
+                
+                <select  id="payment" name="payment">
+                    <option value="select">select</option>
+                    <option value="select">select payment mode</option>
+                    <option value="select"> payment at counter</option>
+                </select><br>
+                <label for="delivery"> Pass delivery mode:</label>
+
+                <select  id="delivery" name="delivery" >
+                    <option value="select">select</option>
+                    <option value="select">select pass delivery mode</option>
+                    <option value>At counter</option>
+                </select><br>
+                <label for="collect">Center at which you want to collect</label>
+                <select id="collect" name="collect" >
+                    <option value="select">Select</option>
+                    <option value="select" >RTC-KKP</option>
+                    <OPTION value="select">RTC KBHP</OPTION>
+                    <OPTION value="select">RTC MGBS</OPTION>
+                </select>
+
+            
+        </fieldset>
+       <center>
+            <img src="./im.jpg" width="150"><br>
+            <input type="text" id="capta" pattern="[9GphJD]+" maxlength="6" minlength="6"><br>
+            <input type="submit" >
+        </center></form>
+</body>
+
+
+</html>
